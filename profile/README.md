@@ -9,6 +9,9 @@ We focus on practical bottlenecks in survey science and astrophysics: reading as
 ### Core Libraries, FITS I/O & Processing
 
 * **[torchfits](https://github.com/astroai/torchfits)** ([docs](https://astroai.github.io/torchfits)) — High-performance, PyTorch-native FITS I/O powered by a multi-threaded C++ engine. Reads and writes images, compressed HDUs, and tables directly as tensors, arrow compatibility, with built-in dataset loaders, ready for streaming large catalogs and cutouts into training loops.
+* **torchsky** — Torch-native astronomy stack for survey-scale coordinates, spherical geometry, catalog indexing, mapmaking, and joint modelling of sky observations.
+* **torchsky-harness** — Scientific validation, upstream parity, benchmarks, and real-data comparisons for torchsky.
+* **[xmatcher](https://github.com/astroai/xmatcher)** — Catalogue crossmatching from local sky regions to distributed full-sky matching.
 * **[weightmask](https://github.com/astroai/weightmask)** — Fast generation of per-pixel weight, mask (cosmics, streaks, saturation, bad pixels), inverse-variance maps for astronomical images.
 * **[torchregress](https://github.com/astroai/torchregress)** — PyTorch library for regression, uncertainty quantification, especially suited for real, difficult regression problems. Not specific to astro data!
 * **[torchregress-harness](https://github.com/astroai/torchregress-harness)** — External-software benchmarking suite for `torchregress`.
